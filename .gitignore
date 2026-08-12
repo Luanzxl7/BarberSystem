@@ -1,5 +1,6 @@
 # ── Dependencies ──────────────────────────────────────────────────────────────
 node_modules/
+.pnpm-store/
 .pnp
 .pnp.js
 
@@ -32,10 +33,3 @@ Thumbs.db
 
 # ── Testing ───────────────────────────────────────────────────────────────────
 coverage/
-
-# ── Local uploads (MVP — replaced by external storage in production) ───────────
-uploads/
-
-# ── Prisma ───────────────────────────────────────────────────────────────────
-prisma/dev.db
-prisma/dev.db-journal
